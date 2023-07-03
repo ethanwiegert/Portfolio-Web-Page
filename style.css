@@ -1,0 +1,67 @@
+/* All of the stylistic guides that dictate how the HTML file is displayed are written and stored here */
+/* class below named dark-background */
+.dark-background{
+  /* text-align dictates the alignment of the text*/
+  text-align: center;
+  background-color: black;
+  /* Background color sets the background, and color sets it for the text */
+  color: white;
+  /* margin which assigns values to the spaces outside the border, one value assigns it to each 4 sides */
+  margin:10px;
+  /*padding assigns value to the space between the border and content, one value assigns it to all sides */
+  padding:25px;
+}
+/* A second class made */
+.light-background{
+  text-align: center;
+  color:black;
+  margin: 10px;
+  padding: 50px;
+  background:lightcyan;
+  /* sets a border with the color, size, and style */
+  border: #000 3px solid
+  
+}
+.round{
+  /* sets a border radius which is applied to the image to produce rounded edges */
+  border-radius: 50px;
+}
+/* sets some of the css for paragraph and list items below */
+p, li{
+  /* font-family sets the font for the text, and font stack list so if one does not work the next in the list is used */
+  font-family:"Times New Roman", sans-serif;
+text-align: left;
+  font-size:15px
+}
+h1{
+  /*font size for the text in pixels */
+  font-size:50px;
+  font-family:"Times New Roman", serif
+}
+h2{
+  font-family: 'Times New Roman', serif;
+  font-size:30px
+}
+h3{
+  font-family:'Times New Roman', serif;
+  text-align: left;
+  font-size: 25px
+}
+h4{
+  font-family:'Times New Roman', serif;
+  text-align: center;
+  font-size:20px
+}
+hr{
+  color:black;
+  /*height of the horizontal rules in pixels */
+  height:5px;
+  /*fills the background of the horizontal rules to black */
+  background:black
+}
+
+/* Pseudo-classes to influence how the links behave */
+a:link {color: blue;}
+a:visited{color: red;}
+a:hover{color: darkblue;}
+a:active{color: purple;}
